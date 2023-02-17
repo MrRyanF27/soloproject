@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Project</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/eedffc5889.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <nav>
+        <button id="dark-btn" onclick="darkM()"> <i class="fa-solid fa-moon"></i>  </button>
+
+        
+        <h1 class="logo">  Mr.Swabeh  🕶</h1> 
+    </nav>
+     
+    <main id="main">
+        <div class="box" id="box">
+            <div class="input-container">
+                <h2>Metric/Imperial Unit Conversion</h2>
+                <input type="number" id="inp">
+                <button id="btn">Convert</button>
+            </div>
+
+            <div id="mainResult">
+                <div class="result-container"> 
+                    <h3 id="mf">Lenght (Meter/Feet)</h3>
+                    <p id="MF" class="rc"></p>
+                </div>
+                <div class="result-container">
+                    <h3 id="lg">Volume (Liters/Gallons)</h3>
+                    <p id="LG" class="rc"></p>
+                </div>
+                <div class="result-container">
+                    <h3 id="kp">Mass (Kilograms/Pounds)</h3>
+                    <p id="KP" class="rc"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="soloProject.js"></script>
+</body>
+</html>
